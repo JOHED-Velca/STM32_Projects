@@ -1,0 +1,60 @@
+# Build directories
+build/
+Debug/
+Release/
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+compile_commands.json
+CPackConfig.cmake
+CPackSourceConfig.cmake
+
+# Ninja build files
+.ninja_deps
+.ninja_log
+build.ninja
+rules.ninja
+
+# IDE files
+.vscode/
+.vs/
+*.swp
+*.swo
+*~
+
+# Object files and binaries
+*.o
+*.obj
+*.elf
+*.bin
+*.hex
+*.map
+*.list
+*.su
+*.d
+
+# Temporary files
+*.tmp
+*.bak
+*.log
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# STM32CubeMX backup files
+*.ioc.bak
+
+# Generated documentation
+doc/html/
+doc/latex/
+
+# CTags
+tags

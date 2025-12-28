@@ -95,8 +95,11 @@ int main(void)
   while (1)
   {
     /* USER CODE END WHILE */
-    HAL_GPIO_TogglePin(GPIOA, GPIO_PIN_5);
-	  HAL_Delay(300);
+    HAL_GPIO_WritePin(GPIOA, GPIO_PIN_5, GPIO_PIN_SET);   // ON (active-high)
+    HAL_Delay(50);
+
+    HAL_GPIO_WritePin(GPIOA, GPIO_PIN_5, GPIO_PIN_RESET); // OFF
+    HAL_Delay(50);
 
     /* USER CODE BEGIN 3 */
   }

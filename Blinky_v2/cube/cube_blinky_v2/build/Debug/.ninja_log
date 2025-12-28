@@ -1,0 +1,25 @@
+# ninja log v5
+6	21	1766886993818294231	CMakeFiles/cube_blinky_v2.dir/startup_stm32l476xx.s.obj	90109d825f092cd9
+5	43	1766886993839294200	CMakeFiles/cube_blinky_v2.dir/Core/Src/sysmem.c.obj	9aedb44160bef6a6
+6	61	1766886993858294171	CMakeFiles/cube_blinky_v2.dir/Core/Src/syscalls.c.obj	c6810b7adfa04985
+10	117	1766886993913294089	cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c.obj	6f77fd1ede4ad754
+11	120	1766886993916294085	cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c.obj	250cf0ef6cdce47d
+10	132	1766886993928294067	cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c.obj	ef1428fdd8d872c2
+11	140	1766886993936294055	cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj	49c5eaa91830baee
+9	193	1766886993989293976	cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj	eb0761048f73daa9
+9	193	1766886993989293976	cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj	e3f2a2b0e3cebae6
+9	199	1766886993996293965	cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c.obj	336eb1980c4124b
+5	208	1766886994004293954	CMakeFiles/cube_blinky_v2.dir/Core/Src/stm32l4xx_hal_msp.c.obj	4f9cb40caf4953b4
+4	209	1766886994006293951	CMakeFiles/cube_blinky_v2.dir/Core/Src/main.c.obj	cd52a9309a07e61d
+7	213	1766886994009293946	cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj	238c08e837f93c84
+12	214	1766886994010293945	cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj	a68165e207b70ba3
+10	217	1766886994013293940	cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c.obj	7cf32990a593670e
+7	219	1766886994015293937	cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj	26daafdb40a37120
+12	224	1766886994020293930	cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c.obj	8c23f4e562f7b32c
+7	225	1766886994021293928	cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32l4xx.c.obj	d6d38d6a285055a5
+4	226	1766886994022293927	CMakeFiles/cube_blinky_v2.dir/Core/Src/stm32l4xx_it.c.obj	2ec82f7773d7ad21
+6	228	1766886994024293924	CMakeFiles/cube_blinky_v2.dir/home/johed/Documents/GitHub/STM32_Projects/Blinky_v2/app/blinky_app.c.obj	ffe51a25c375254f
+8	231	1766886994028293918	cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c.obj	dc09a9c488063274
+8	232	1766886994028293918	cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c.obj	a3e30814ae323273
+8	234	1766886994030293915	cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.obj	907b5bded260b882
+234	285	1766886994081293839	cube_blinky_v2.elf	9cc5a7924efa1e4d

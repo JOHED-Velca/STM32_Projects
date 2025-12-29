@@ -149,6 +149,8 @@ Discarded input sections
                 0x00000000       0x50 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
  .text.HAL_GetTickFreq
                 0x00000000       0x18 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
+ .text.HAL_Delay
+                0x00000000       0x48 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
  .text.HAL_SuspendTick
                 0x00000000       0x20 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
  .text.HAL_ResumeTick
@@ -741,10 +743,6 @@ Discarded input sections
                 0x00000000        0x7 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj
  .text.HAL_GPIO_DeInit
                 0x00000000      0x1e8 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj
- .text.HAL_GPIO_ReadPin
-                0x00000000       0x30 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj
- .text.HAL_GPIO_TogglePin
-                0x00000000       0x34 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj
  .text.HAL_GPIO_LockPin
                 0x00000000       0x50 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj
  .text.HAL_GPIO_EXTI_IRQHandler
@@ -1914,69 +1912,67 @@ Discarded input sections
  .text          0x00000000       0x14 CMakeFiles/cube_blinky_v2.dir/startup_stm32l476xx.s.obj
  .data          0x00000000        0x0 CMakeFiles/cube_blinky_v2.dir/startup_stm32l476xx.s.obj
  .bss           0x00000000        0x0 CMakeFiles/cube_blinky_v2.dir/startup_stm32l476xx.s.obj
- .group         0x00000000        0xc CMakeFiles/cube_blinky_v2.dir/home/johed/Documents/GitHub/STM32_Projects/Blinky_v2/app/blinky_app.c.obj
- .group         0x00000000        0xc CMakeFiles/cube_blinky_v2.dir/home/johed/Documents/GitHub/STM32_Projects/Blinky_v2/app/blinky_app.c.obj
- .group         0x00000000        0xc CMakeFiles/cube_blinky_v2.dir/home/johed/Documents/GitHub/STM32_Projects/Blinky_v2/app/blinky_app.c.obj
- .group         0x00000000        0xc CMakeFiles/cube_blinky_v2.dir/home/johed/Documents/GitHub/STM32_Projects/Blinky_v2/app/blinky_app.c.obj
- .group         0x00000000        0xc CMakeFiles/cube_blinky_v2.dir/home/johed/Documents/GitHub/STM32_Projects/Blinky_v2/app/blinky_app.c.obj
- .group         0x00000000        0xc CMakeFiles/cube_blinky_v2.dir/home/johed/Documents/GitHub/STM32_Projects/Blinky_v2/app/blinky_app.c.obj
- .group         0x00000000        0xc CMakeFiles/cube_blinky_v2.dir/home/johed/Documents/GitHub/STM32_Projects/Blinky_v2/app/blinky_app.c.obj
- .group         0x00000000        0xc CMakeFiles/cube_blinky_v2.dir/home/johed/Documents/GitHub/STM32_Projects/Blinky_v2/app/blinky_app.c.obj
- .group         0x00000000        0xc CMakeFiles/cube_blinky_v2.dir/home/johed/Documents/GitHub/STM32_Projects/Blinky_v2/app/blinky_app.c.obj
- .group         0x00000000        0xc CMakeFiles/cube_blinky_v2.dir/home/johed/Documents/GitHub/STM32_Projects/Blinky_v2/app/blinky_app.c.obj
- .group         0x00000000        0xc CMakeFiles/cube_blinky_v2.dir/home/johed/Documents/GitHub/STM32_Projects/Blinky_v2/app/blinky_app.c.obj
- .group         0x00000000        0xc CMakeFiles/cube_blinky_v2.dir/home/johed/Documents/GitHub/STM32_Projects/Blinky_v2/app/blinky_app.c.obj
- .group         0x00000000        0xc CMakeFiles/cube_blinky_v2.dir/home/johed/Documents/GitHub/STM32_Projects/Blinky_v2/app/blinky_app.c.obj
- .group         0x00000000        0xc CMakeFiles/cube_blinky_v2.dir/home/johed/Documents/GitHub/STM32_Projects/Blinky_v2/app/blinky_app.c.obj
- .group         0x00000000        0xc CMakeFiles/cube_blinky_v2.dir/home/johed/Documents/GitHub/STM32_Projects/Blinky_v2/app/blinky_app.c.obj
- .group         0x00000000        0xc CMakeFiles/cube_blinky_v2.dir/home/johed/Documents/GitHub/STM32_Projects/Blinky_v2/app/blinky_app.c.obj
- .group         0x00000000        0xc CMakeFiles/cube_blinky_v2.dir/home/johed/Documents/GitHub/STM32_Projects/Blinky_v2/app/blinky_app.c.obj
- .group         0x00000000        0xc CMakeFiles/cube_blinky_v2.dir/home/johed/Documents/GitHub/STM32_Projects/Blinky_v2/app/blinky_app.c.obj
- .group         0x00000000        0xc CMakeFiles/cube_blinky_v2.dir/home/johed/Documents/GitHub/STM32_Projects/Blinky_v2/app/blinky_app.c.obj
- .group         0x00000000        0xc CMakeFiles/cube_blinky_v2.dir/home/johed/Documents/GitHub/STM32_Projects/Blinky_v2/app/blinky_app.c.obj
- .group         0x00000000        0xc CMakeFiles/cube_blinky_v2.dir/home/johed/Documents/GitHub/STM32_Projects/Blinky_v2/app/blinky_app.c.obj
- .group         0x00000000        0xc CMakeFiles/cube_blinky_v2.dir/home/johed/Documents/GitHub/STM32_Projects/Blinky_v2/app/blinky_app.c.obj
- .group         0x00000000        0xc CMakeFiles/cube_blinky_v2.dir/home/johed/Documents/GitHub/STM32_Projects/Blinky_v2/app/blinky_app.c.obj
- .group         0x00000000        0xc CMakeFiles/cube_blinky_v2.dir/home/johed/Documents/GitHub/STM32_Projects/Blinky_v2/app/blinky_app.c.obj
- .group         0x00000000        0xc CMakeFiles/cube_blinky_v2.dir/home/johed/Documents/GitHub/STM32_Projects/Blinky_v2/app/blinky_app.c.obj
- .group         0x00000000        0xc CMakeFiles/cube_blinky_v2.dir/home/johed/Documents/GitHub/STM32_Projects/Blinky_v2/app/blinky_app.c.obj
- .group         0x00000000        0xc CMakeFiles/cube_blinky_v2.dir/home/johed/Documents/GitHub/STM32_Projects/Blinky_v2/app/blinky_app.c.obj
- .group         0x00000000        0xc CMakeFiles/cube_blinky_v2.dir/home/johed/Documents/GitHub/STM32_Projects/Blinky_v2/app/blinky_app.c.obj
- .text          0x00000000        0x0 CMakeFiles/cube_blinky_v2.dir/home/johed/Documents/GitHub/STM32_Projects/Blinky_v2/app/blinky_app.c.obj
- .data          0x00000000        0x0 CMakeFiles/cube_blinky_v2.dir/home/johed/Documents/GitHub/STM32_Projects/Blinky_v2/app/blinky_app.c.obj
- .bss           0x00000000        0x0 CMakeFiles/cube_blinky_v2.dir/home/johed/Documents/GitHub/STM32_Projects/Blinky_v2/app/blinky_app.c.obj
+ .group         0x00000000        0xc CMakeFiles/cube_blinky_v2.dir/home/johed/Documents/GitHub/STM32_Projects/Blinky_v2/app/app.c.obj
+ .group         0x00000000        0xc CMakeFiles/cube_blinky_v2.dir/home/johed/Documents/GitHub/STM32_Projects/Blinky_v2/app/app.c.obj
+ .group         0x00000000        0xc CMakeFiles/cube_blinky_v2.dir/home/johed/Documents/GitHub/STM32_Projects/Blinky_v2/app/app.c.obj
+ .group         0x00000000        0xc CMakeFiles/cube_blinky_v2.dir/home/johed/Documents/GitHub/STM32_Projects/Blinky_v2/app/app.c.obj
+ .group         0x00000000        0xc CMakeFiles/cube_blinky_v2.dir/home/johed/Documents/GitHub/STM32_Projects/Blinky_v2/app/app.c.obj
+ .group         0x00000000        0xc CMakeFiles/cube_blinky_v2.dir/home/johed/Documents/GitHub/STM32_Projects/Blinky_v2/app/app.c.obj
+ .group         0x00000000        0xc CMakeFiles/cube_blinky_v2.dir/home/johed/Documents/GitHub/STM32_Projects/Blinky_v2/app/app.c.obj
+ .group         0x00000000        0xc CMakeFiles/cube_blinky_v2.dir/home/johed/Documents/GitHub/STM32_Projects/Blinky_v2/app/app.c.obj
+ .group         0x00000000        0xc CMakeFiles/cube_blinky_v2.dir/home/johed/Documents/GitHub/STM32_Projects/Blinky_v2/app/app.c.obj
+ .group         0x00000000        0xc CMakeFiles/cube_blinky_v2.dir/home/johed/Documents/GitHub/STM32_Projects/Blinky_v2/app/app.c.obj
+ .group         0x00000000        0xc CMakeFiles/cube_blinky_v2.dir/home/johed/Documents/GitHub/STM32_Projects/Blinky_v2/app/app.c.obj
+ .group         0x00000000        0xc CMakeFiles/cube_blinky_v2.dir/home/johed/Documents/GitHub/STM32_Projects/Blinky_v2/app/app.c.obj
+ .group         0x00000000        0xc CMakeFiles/cube_blinky_v2.dir/home/johed/Documents/GitHub/STM32_Projects/Blinky_v2/app/app.c.obj
+ .group         0x00000000        0xc CMakeFiles/cube_blinky_v2.dir/home/johed/Documents/GitHub/STM32_Projects/Blinky_v2/app/app.c.obj
+ .group         0x00000000        0xc CMakeFiles/cube_blinky_v2.dir/home/johed/Documents/GitHub/STM32_Projects/Blinky_v2/app/app.c.obj
+ .group         0x00000000        0xc CMakeFiles/cube_blinky_v2.dir/home/johed/Documents/GitHub/STM32_Projects/Blinky_v2/app/app.c.obj
+ .group         0x00000000        0xc CMakeFiles/cube_blinky_v2.dir/home/johed/Documents/GitHub/STM32_Projects/Blinky_v2/app/app.c.obj
+ .group         0x00000000        0xc CMakeFiles/cube_blinky_v2.dir/home/johed/Documents/GitHub/STM32_Projects/Blinky_v2/app/app.c.obj
+ .group         0x00000000        0xc CMakeFiles/cube_blinky_v2.dir/home/johed/Documents/GitHub/STM32_Projects/Blinky_v2/app/app.c.obj
+ .group         0x00000000        0xc CMakeFiles/cube_blinky_v2.dir/home/johed/Documents/GitHub/STM32_Projects/Blinky_v2/app/app.c.obj
+ .group         0x00000000        0xc CMakeFiles/cube_blinky_v2.dir/home/johed/Documents/GitHub/STM32_Projects/Blinky_v2/app/app.c.obj
+ .group         0x00000000        0xc CMakeFiles/cube_blinky_v2.dir/home/johed/Documents/GitHub/STM32_Projects/Blinky_v2/app/app.c.obj
+ .group         0x00000000        0xc CMakeFiles/cube_blinky_v2.dir/home/johed/Documents/GitHub/STM32_Projects/Blinky_v2/app/app.c.obj
+ .group         0x00000000        0xc CMakeFiles/cube_blinky_v2.dir/home/johed/Documents/GitHub/STM32_Projects/Blinky_v2/app/app.c.obj
+ .group         0x00000000        0xc CMakeFiles/cube_blinky_v2.dir/home/johed/Documents/GitHub/STM32_Projects/Blinky_v2/app/app.c.obj
+ .group         0x00000000        0xc CMakeFiles/cube_blinky_v2.dir/home/johed/Documents/GitHub/STM32_Projects/Blinky_v2/app/app.c.obj
+ .group         0x00000000        0xc CMakeFiles/cube_blinky_v2.dir/home/johed/Documents/GitHub/STM32_Projects/Blinky_v2/app/app.c.obj
+ .group         0x00000000        0xc CMakeFiles/cube_blinky_v2.dir/home/johed/Documents/GitHub/STM32_Projects/Blinky_v2/app/app.c.obj
+ .text          0x00000000        0x0 CMakeFiles/cube_blinky_v2.dir/home/johed/Documents/GitHub/STM32_Projects/Blinky_v2/app/app.c.obj
+ .data          0x00000000        0x0 CMakeFiles/cube_blinky_v2.dir/home/johed/Documents/GitHub/STM32_Projects/Blinky_v2/app/app.c.obj
+ .bss           0x00000000        0x0 CMakeFiles/cube_blinky_v2.dir/home/johed/Documents/GitHub/STM32_Projects/Blinky_v2/app/app.c.obj
  .rodata.CHANNEL_OFFSET_TAB
-                0x00000000        0x7 CMakeFiles/cube_blinky_v2.dir/home/johed/Documents/GitHub/STM32_Projects/Blinky_v2/app/blinky_app.c.obj
- .text.blinky_app_task
-                0x00000000       0x3c CMakeFiles/cube_blinky_v2.dir/home/johed/Documents/GitHub/STM32_Projects/Blinky_v2/app/blinky_app.c.obj
- .debug_macro   0x00000000      0xad8 CMakeFiles/cube_blinky_v2.dir/home/johed/Documents/GitHub/STM32_Projects/Blinky_v2/app/blinky_app.c.obj
- .debug_macro   0x00000000      0x19b CMakeFiles/cube_blinky_v2.dir/home/johed/Documents/GitHub/STM32_Projects/Blinky_v2/app/blinky_app.c.obj
- .debug_macro   0x00000000       0x2e CMakeFiles/cube_blinky_v2.dir/home/johed/Documents/GitHub/STM32_Projects/Blinky_v2/app/blinky_app.c.obj
- .debug_macro   0x00000000       0x28 CMakeFiles/cube_blinky_v2.dir/home/johed/Documents/GitHub/STM32_Projects/Blinky_v2/app/blinky_app.c.obj
- .debug_macro   0x00000000      0x34e CMakeFiles/cube_blinky_v2.dir/home/johed/Documents/GitHub/STM32_Projects/Blinky_v2/app/blinky_app.c.obj
- .debug_macro   0x00000000       0x1c CMakeFiles/cube_blinky_v2.dir/home/johed/Documents/GitHub/STM32_Projects/Blinky_v2/app/blinky_app.c.obj
- .debug_macro   0x00000000       0x22 CMakeFiles/cube_blinky_v2.dir/home/johed/Documents/GitHub/STM32_Projects/Blinky_v2/app/blinky_app.c.obj
- .debug_macro   0x00000000       0xfb CMakeFiles/cube_blinky_v2.dir/home/johed/Documents/GitHub/STM32_Projects/Blinky_v2/app/blinky_app.c.obj
- .debug_macro   0x00000000     0x1011 CMakeFiles/cube_blinky_v2.dir/home/johed/Documents/GitHub/STM32_Projects/Blinky_v2/app/blinky_app.c.obj
- .debug_macro   0x00000000      0x11f CMakeFiles/cube_blinky_v2.dir/home/johed/Documents/GitHub/STM32_Projects/Blinky_v2/app/blinky_app.c.obj
- .debug_macro   0x00000000    0x1a192 CMakeFiles/cube_blinky_v2.dir/home/johed/Documents/GitHub/STM32_Projects/Blinky_v2/app/blinky_app.c.obj
- .debug_macro   0x00000000       0x6d CMakeFiles/cube_blinky_v2.dir/home/johed/Documents/GitHub/STM32_Projects/Blinky_v2/app/blinky_app.c.obj
- .debug_macro   0x00000000     0x38fb CMakeFiles/cube_blinky_v2.dir/home/johed/Documents/GitHub/STM32_Projects/Blinky_v2/app/blinky_app.c.obj
- .debug_macro   0x00000000      0x190 CMakeFiles/cube_blinky_v2.dir/home/johed/Documents/GitHub/STM32_Projects/Blinky_v2/app/blinky_app.c.obj
- .debug_macro   0x00000000       0x5c CMakeFiles/cube_blinky_v2.dir/home/johed/Documents/GitHub/STM32_Projects/Blinky_v2/app/blinky_app.c.obj
- .debug_macro   0x00000000     0x159e CMakeFiles/cube_blinky_v2.dir/home/johed/Documents/GitHub/STM32_Projects/Blinky_v2/app/blinky_app.c.obj
- .debug_macro   0x00000000      0x5a5 CMakeFiles/cube_blinky_v2.dir/home/johed/Documents/GitHub/STM32_Projects/Blinky_v2/app/blinky_app.c.obj
- .debug_macro   0x00000000      0x1b9 CMakeFiles/cube_blinky_v2.dir/home/johed/Documents/GitHub/STM32_Projects/Blinky_v2/app/blinky_app.c.obj
- .debug_macro   0x00000000      0x18b CMakeFiles/cube_blinky_v2.dir/home/johed/Documents/GitHub/STM32_Projects/Blinky_v2/app/blinky_app.c.obj
- .debug_macro   0x00000000      0x2c4 CMakeFiles/cube_blinky_v2.dir/home/johed/Documents/GitHub/STM32_Projects/Blinky_v2/app/blinky_app.c.obj
- .debug_macro   0x00000000      0x27a CMakeFiles/cube_blinky_v2.dir/home/johed/Documents/GitHub/STM32_Projects/Blinky_v2/app/blinky_app.c.obj
- .debug_macro   0x00000000      0x23d CMakeFiles/cube_blinky_v2.dir/home/johed/Documents/GitHub/STM32_Projects/Blinky_v2/app/blinky_app.c.obj
- .debug_macro   0x00000000      0x241 CMakeFiles/cube_blinky_v2.dir/home/johed/Documents/GitHub/STM32_Projects/Blinky_v2/app/blinky_app.c.obj
- .debug_macro   0x00000000      0x37c CMakeFiles/cube_blinky_v2.dir/home/johed/Documents/GitHub/STM32_Projects/Blinky_v2/app/blinky_app.c.obj
- .debug_macro   0x00000000       0xd6 CMakeFiles/cube_blinky_v2.dir/home/johed/Documents/GitHub/STM32_Projects/Blinky_v2/app/blinky_app.c.obj
- .debug_macro   0x00000000      0x122 CMakeFiles/cube_blinky_v2.dir/home/johed/Documents/GitHub/STM32_Projects/Blinky_v2/app/blinky_app.c.obj
- .debug_macro   0x00000000      0x3ef CMakeFiles/cube_blinky_v2.dir/home/johed/Documents/GitHub/STM32_Projects/Blinky_v2/app/blinky_app.c.obj
- .debug_macro   0x00000000      0x330 CMakeFiles/cube_blinky_v2.dir/home/johed/Documents/GitHub/STM32_Projects/Blinky_v2/app/blinky_app.c.obj
+                0x00000000        0x7 CMakeFiles/cube_blinky_v2.dir/home/johed/Documents/GitHub/STM32_Projects/Blinky_v2/app/app.c.obj
+ .debug_macro   0x00000000      0xad8 CMakeFiles/cube_blinky_v2.dir/home/johed/Documents/GitHub/STM32_Projects/Blinky_v2/app/app.c.obj
+ .debug_macro   0x00000000      0x19b CMakeFiles/cube_blinky_v2.dir/home/johed/Documents/GitHub/STM32_Projects/Blinky_v2/app/app.c.obj
+ .debug_macro   0x00000000       0x2e CMakeFiles/cube_blinky_v2.dir/home/johed/Documents/GitHub/STM32_Projects/Blinky_v2/app/app.c.obj
+ .debug_macro   0x00000000       0x28 CMakeFiles/cube_blinky_v2.dir/home/johed/Documents/GitHub/STM32_Projects/Blinky_v2/app/app.c.obj
+ .debug_macro   0x00000000      0x34e CMakeFiles/cube_blinky_v2.dir/home/johed/Documents/GitHub/STM32_Projects/Blinky_v2/app/app.c.obj
+ .debug_macro   0x00000000       0x1c CMakeFiles/cube_blinky_v2.dir/home/johed/Documents/GitHub/STM32_Projects/Blinky_v2/app/app.c.obj
+ .debug_macro   0x00000000       0x22 CMakeFiles/cube_blinky_v2.dir/home/johed/Documents/GitHub/STM32_Projects/Blinky_v2/app/app.c.obj
+ .debug_macro   0x00000000       0xfb CMakeFiles/cube_blinky_v2.dir/home/johed/Documents/GitHub/STM32_Projects/Blinky_v2/app/app.c.obj
+ .debug_macro   0x00000000     0x1011 CMakeFiles/cube_blinky_v2.dir/home/johed/Documents/GitHub/STM32_Projects/Blinky_v2/app/app.c.obj
+ .debug_macro   0x00000000      0x11f CMakeFiles/cube_blinky_v2.dir/home/johed/Documents/GitHub/STM32_Projects/Blinky_v2/app/app.c.obj
+ .debug_macro   0x00000000    0x1a192 CMakeFiles/cube_blinky_v2.dir/home/johed/Documents/GitHub/STM32_Projects/Blinky_v2/app/app.c.obj
+ .debug_macro   0x00000000       0x6d CMakeFiles/cube_blinky_v2.dir/home/johed/Documents/GitHub/STM32_Projects/Blinky_v2/app/app.c.obj
+ .debug_macro   0x00000000     0x38fb CMakeFiles/cube_blinky_v2.dir/home/johed/Documents/GitHub/STM32_Projects/Blinky_v2/app/app.c.obj
+ .debug_macro   0x00000000      0x190 CMakeFiles/cube_blinky_v2.dir/home/johed/Documents/GitHub/STM32_Projects/Blinky_v2/app/app.c.obj
+ .debug_macro   0x00000000       0x5c CMakeFiles/cube_blinky_v2.dir/home/johed/Documents/GitHub/STM32_Projects/Blinky_v2/app/app.c.obj
+ .debug_macro   0x00000000     0x159e CMakeFiles/cube_blinky_v2.dir/home/johed/Documents/GitHub/STM32_Projects/Blinky_v2/app/app.c.obj
+ .debug_macro   0x00000000      0x5a5 CMakeFiles/cube_blinky_v2.dir/home/johed/Documents/GitHub/STM32_Projects/Blinky_v2/app/app.c.obj
+ .debug_macro   0x00000000      0x1b9 CMakeFiles/cube_blinky_v2.dir/home/johed/Documents/GitHub/STM32_Projects/Blinky_v2/app/app.c.obj
+ .debug_macro   0x00000000      0x18b CMakeFiles/cube_blinky_v2.dir/home/johed/Documents/GitHub/STM32_Projects/Blinky_v2/app/app.c.obj
+ .debug_macro   0x00000000      0x2c4 CMakeFiles/cube_blinky_v2.dir/home/johed/Documents/GitHub/STM32_Projects/Blinky_v2/app/app.c.obj
+ .debug_macro   0x00000000      0x27a CMakeFiles/cube_blinky_v2.dir/home/johed/Documents/GitHub/STM32_Projects/Blinky_v2/app/app.c.obj
+ .debug_macro   0x00000000      0x23d CMakeFiles/cube_blinky_v2.dir/home/johed/Documents/GitHub/STM32_Projects/Blinky_v2/app/app.c.obj
+ .debug_macro   0x00000000      0x241 CMakeFiles/cube_blinky_v2.dir/home/johed/Documents/GitHub/STM32_Projects/Blinky_v2/app/app.c.obj
+ .debug_macro   0x00000000      0x37c CMakeFiles/cube_blinky_v2.dir/home/johed/Documents/GitHub/STM32_Projects/Blinky_v2/app/app.c.obj
+ .debug_macro   0x00000000       0xd6 CMakeFiles/cube_blinky_v2.dir/home/johed/Documents/GitHub/STM32_Projects/Blinky_v2/app/app.c.obj
+ .debug_macro   0x00000000      0x122 CMakeFiles/cube_blinky_v2.dir/home/johed/Documents/GitHub/STM32_Projects/Blinky_v2/app/app.c.obj
+ .debug_macro   0x00000000      0x3ef CMakeFiles/cube_blinky_v2.dir/home/johed/Documents/GitHub/STM32_Projects/Blinky_v2/app/app.c.obj
+ .debug_macro   0x00000000      0x330 CMakeFiles/cube_blinky_v2.dir/home/johed/Documents/GitHub/STM32_Projects/Blinky_v2/app/app.c.obj
  .data          0x00000000        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(libc_a-init.o)
  .bss           0x00000000        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(libc_a-init.o)
  .data          0x00000000        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(libc_a-memset.o)
@@ -2328,7 +2324,7 @@ LOAD CMakeFiles/cube_blinky_v2.dir/Core/Src/stm32l4xx_hal_msp.c.obj
 LOAD CMakeFiles/cube_blinky_v2.dir/Core/Src/sysmem.c.obj
 LOAD CMakeFiles/cube_blinky_v2.dir/Core/Src/syscalls.c.obj
 LOAD CMakeFiles/cube_blinky_v2.dir/startup_stm32l476xx.s.obj
-LOAD CMakeFiles/cube_blinky_v2.dir/home/johed/Documents/GitHub/STM32_Projects/Blinky_v2/app/blinky_app.c.obj
+LOAD CMakeFiles/cube_blinky_v2.dir/home/johed/Documents/GitHub/STM32_Projects/Blinky_v2/app/app.c.obj
 LOAD /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
 START GROUP
 LOAD /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+fp/hard/libgcc.a
@@ -2352,7 +2348,7 @@ LOAD /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+fp/hard/crtn.o
                 0x08000000                g_pfnVectors
                 0x08000188                        . = ALIGN (0x8)
 
-.text           0x08000188     0x1718
+.text           0x08000188     0x18c8
                 0x08000188                        . = ALIGN (0x8)
  *(.text)
  .text          0x08000188       0x88 /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+fp/hard/crtbegin.o
@@ -2376,267 +2372,278 @@ LOAD /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+fp/hard/crtn.o
  .text.HAL_GetTick
                 0x080003f8       0x18 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
                 0x080003f8                HAL_GetTick
- .text.HAL_Delay
-                0x08000410       0x48 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
-                0x08000410                HAL_Delay
  .text.HAL_RCC_OscConfig
-                0x08000458      0x7b8 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj
-                0x08000458                HAL_RCC_OscConfig
+                0x08000410      0x7b8 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj
+                0x08000410                HAL_RCC_OscConfig
  .text.HAL_RCC_ClockConfig
-                0x08000c10      0x200 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj
-                0x08000c10                HAL_RCC_ClockConfig
+                0x08000bc8      0x200 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj
+                0x08000bc8                HAL_RCC_ClockConfig
  .text.HAL_RCC_GetSysClockFreq
-                0x08000e10      0x118 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj
-                0x08000e10                HAL_RCC_GetSysClockFreq
+                0x08000dc8      0x118 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj
+                0x08000dc8                HAL_RCC_GetSysClockFreq
  .text.RCC_SetFlashLatencyFromMSIRange
-                0x08000f28       0xc0 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj
+                0x08000ee0       0xc0 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj
  .text.HAL_GPIO_Init
-                0x08000fe8      0x354 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj
-                0x08000fe8                HAL_GPIO_Init
+                0x08000fa0      0x354 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj
+                0x08000fa0                HAL_GPIO_Init
+ .text.HAL_GPIO_ReadPin
+                0x080012f4       0x30 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj
+                0x080012f4                HAL_GPIO_ReadPin
  .text.HAL_GPIO_WritePin
-                0x0800133c       0x30 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj
-                0x0800133c                HAL_GPIO_WritePin
+                0x08001324       0x30 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj
+                0x08001324                HAL_GPIO_WritePin
+ .text.HAL_GPIO_TogglePin
+                0x08001354       0x34 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj
+                0x08001354                HAL_GPIO_TogglePin
  .text.HAL_PWREx_GetVoltageRange
-                0x0800136c       0x1c cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj
-                0x0800136c                HAL_PWREx_GetVoltageRange
+                0x08001388       0x1c cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj
+                0x08001388                HAL_PWREx_GetVoltageRange
  .text.HAL_PWREx_ControlVoltageScaling
-                0x08001388       0xac cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj
-                0x08001388                HAL_PWREx_ControlVoltageScaling
+                0x080013a4       0xac cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj
+                0x080013a4                HAL_PWREx_ControlVoltageScaling
  .text.__NVIC_SetPriorityGrouping
-                0x08001434       0x48 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
+                0x08001450       0x48 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
  .text.__NVIC_GetPriorityGrouping
-                0x0800147c       0x1c cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
+                0x08001498       0x1c cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
  .text.__NVIC_SetPriority
-                0x08001498       0x54 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
+                0x080014b4       0x54 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
  .text.NVIC_EncodePriority
-                0x080014ec       0x66 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
- *fill*         0x08001552        0x2 
+                0x08001508       0x66 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
+ *fill*         0x0800156e        0x2 
  .text.SysTick_Config
-                0x08001554       0x44 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
+                0x08001570       0x44 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
  .text.HAL_NVIC_SetPriorityGrouping
-                0x08001598       0x16 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
-                0x08001598                HAL_NVIC_SetPriorityGrouping
+                0x080015b4       0x16 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
+                0x080015b4                HAL_NVIC_SetPriorityGrouping
  .text.HAL_NVIC_SetPriority
-                0x080015ae       0x38 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
-                0x080015ae                HAL_NVIC_SetPriority
+                0x080015ca       0x38 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
+                0x080015ca                HAL_NVIC_SetPriority
  .text.HAL_SYSTICK_Config
-                0x080015e6       0x18 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
-                0x080015e6                HAL_SYSTICK_Config
- *fill*         0x080015fe        0x2 
- .text.main     0x08001600       0x4c CMakeFiles/cube_blinky_v2.dir/Core/Src/main.c.obj
-                0x08001600                main
+                0x08001602       0x18 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
+                0x08001602                HAL_SYSTICK_Config
+ *fill*         0x0800161a        0x2 
+ .text.main     0x0800161c       0x48 CMakeFiles/cube_blinky_v2.dir/Core/Src/main.c.obj
+                0x0800161c                main
  .text.SystemClock_Config
-                0x0800164c       0x8c CMakeFiles/cube_blinky_v2.dir/Core/Src/main.c.obj
-                0x0800164c                SystemClock_Config
+                0x08001664       0x8c CMakeFiles/cube_blinky_v2.dir/Core/Src/main.c.obj
+                0x08001664                SystemClock_Config
  .text.MX_GPIO_Init
-                0x080016d8       0x60 CMakeFiles/cube_blinky_v2.dir/Core/Src/main.c.obj
+                0x080016f0       0xc0 CMakeFiles/cube_blinky_v2.dir/Core/Src/main.c.obj
  .text.Error_Handler
-                0x08001738        0xc CMakeFiles/cube_blinky_v2.dir/Core/Src/main.c.obj
-                0x08001738                Error_Handler
+                0x080017b0        0xc CMakeFiles/cube_blinky_v2.dir/Core/Src/main.c.obj
+                0x080017b0                Error_Handler
  .text.NMI_Handler
-                0x08001744        0x8 CMakeFiles/cube_blinky_v2.dir/Core/Src/stm32l4xx_it.c.obj
-                0x08001744                NMI_Handler
+                0x080017bc        0x8 CMakeFiles/cube_blinky_v2.dir/Core/Src/stm32l4xx_it.c.obj
+                0x080017bc                NMI_Handler
  .text.HardFault_Handler
-                0x0800174c        0x8 CMakeFiles/cube_blinky_v2.dir/Core/Src/stm32l4xx_it.c.obj
-                0x0800174c                HardFault_Handler
+                0x080017c4        0x8 CMakeFiles/cube_blinky_v2.dir/Core/Src/stm32l4xx_it.c.obj
+                0x080017c4                HardFault_Handler
  .text.MemManage_Handler
-                0x08001754        0x8 CMakeFiles/cube_blinky_v2.dir/Core/Src/stm32l4xx_it.c.obj
-                0x08001754                MemManage_Handler
+                0x080017cc        0x8 CMakeFiles/cube_blinky_v2.dir/Core/Src/stm32l4xx_it.c.obj
+                0x080017cc                MemManage_Handler
  .text.BusFault_Handler
-                0x0800175c        0x8 CMakeFiles/cube_blinky_v2.dir/Core/Src/stm32l4xx_it.c.obj
-                0x0800175c                BusFault_Handler
+                0x080017d4        0x8 CMakeFiles/cube_blinky_v2.dir/Core/Src/stm32l4xx_it.c.obj
+                0x080017d4                BusFault_Handler
  .text.UsageFault_Handler
-                0x08001764        0x8 CMakeFiles/cube_blinky_v2.dir/Core/Src/stm32l4xx_it.c.obj
-                0x08001764                UsageFault_Handler
+                0x080017dc        0x8 CMakeFiles/cube_blinky_v2.dir/Core/Src/stm32l4xx_it.c.obj
+                0x080017dc                UsageFault_Handler
  .text.SVC_Handler
-                0x0800176c        0xe CMakeFiles/cube_blinky_v2.dir/Core/Src/stm32l4xx_it.c.obj
-                0x0800176c                SVC_Handler
+                0x080017e4        0xe CMakeFiles/cube_blinky_v2.dir/Core/Src/stm32l4xx_it.c.obj
+                0x080017e4                SVC_Handler
  .text.DebugMon_Handler
-                0x0800177a        0xe CMakeFiles/cube_blinky_v2.dir/Core/Src/stm32l4xx_it.c.obj
-                0x0800177a                DebugMon_Handler
+                0x080017f2        0xe CMakeFiles/cube_blinky_v2.dir/Core/Src/stm32l4xx_it.c.obj
+                0x080017f2                DebugMon_Handler
  .text.PendSV_Handler
-                0x08001788        0xe CMakeFiles/cube_blinky_v2.dir/Core/Src/stm32l4xx_it.c.obj
-                0x08001788                PendSV_Handler
+                0x08001800        0xe CMakeFiles/cube_blinky_v2.dir/Core/Src/stm32l4xx_it.c.obj
+                0x08001800                PendSV_Handler
  .text.SysTick_Handler
-                0x08001796        0xc CMakeFiles/cube_blinky_v2.dir/Core/Src/stm32l4xx_it.c.obj
-                0x08001796                SysTick_Handler
- *fill*         0x080017a2        0x2 
+                0x0800180e        0xc CMakeFiles/cube_blinky_v2.dir/Core/Src/stm32l4xx_it.c.obj
+                0x0800180e                SysTick_Handler
+ *fill*         0x0800181a        0x2 
  .text.HAL_MspInit
-                0x080017a4       0x48 CMakeFiles/cube_blinky_v2.dir/Core/Src/stm32l4xx_hal_msp.c.obj
-                0x080017a4                HAL_MspInit
+                0x0800181c       0x48 CMakeFiles/cube_blinky_v2.dir/Core/Src/stm32l4xx_hal_msp.c.obj
+                0x0800181c                HAL_MspInit
  .text.Reset_Handler
-                0x080017ec       0x50 CMakeFiles/cube_blinky_v2.dir/startup_stm32l476xx.s.obj
-                0x080017ec                Reset_Handler
+                0x08001864       0x50 CMakeFiles/cube_blinky_v2.dir/startup_stm32l476xx.s.obj
+                0x08001864                Reset_Handler
  .text.Default_Handler
-                0x0800183c        0x2 CMakeFiles/cube_blinky_v2.dir/startup_stm32l476xx.s.obj
-                0x0800183c                RTC_Alarm_IRQHandler
-                0x0800183c                EXTI2_IRQHandler
-                0x0800183c                TIM8_TRG_COM_IRQHandler
-                0x0800183c                TIM8_CC_IRQHandler
-                0x0800183c                TIM1_CC_IRQHandler
-                0x0800183c                TSC_IRQHandler
-                0x0800183c                TAMP_STAMP_IRQHandler
-                0x0800183c                EXTI3_IRQHandler
-                0x0800183c                LPTIM2_IRQHandler
-                0x0800183c                DFSDM1_FLT1_IRQHandler
-                0x0800183c                I2C3_ER_IRQHandler
-                0x0800183c                DFSDM1_FLT2_IRQHandler
-                0x0800183c                EXTI0_IRQHandler
-                0x0800183c                I2C2_EV_IRQHandler
-                0x0800183c                CAN1_RX0_IRQHandler
-                0x0800183c                FPU_IRQHandler
-                0x0800183c                TIM1_UP_TIM16_IRQHandler
-                0x0800183c                ADC1_2_IRQHandler
-                0x0800183c                SPI1_IRQHandler
-                0x0800183c                TIM6_DAC_IRQHandler
-                0x0800183c                TIM8_UP_IRQHandler
-                0x0800183c                DMA2_Channel2_IRQHandler
-                0x0800183c                DMA1_Channel4_IRQHandler
-                0x0800183c                SAI2_IRQHandler
-                0x0800183c                DFSDM1_FLT3_IRQHandler
-                0x0800183c                USART3_IRQHandler
-                0x0800183c                DMA1_Channel7_IRQHandler
-                0x0800183c                CAN1_RX1_IRQHandler
-                0x0800183c                LCD_IRQHandler
-                0x0800183c                UART5_IRQHandler
-                0x0800183c                ADC3_IRQHandler
-                0x0800183c                TIM4_IRQHandler
-                0x0800183c                DMA2_Channel1_IRQHandler
-                0x0800183c                QUADSPI_IRQHandler
-                0x0800183c                I2C1_EV_IRQHandler
-                0x0800183c                DMA1_Channel6_IRQHandler
-                0x0800183c                UART4_IRQHandler
-                0x0800183c                DMA2_Channel4_IRQHandler
-                0x0800183c                TIM3_IRQHandler
-                0x0800183c                RCC_IRQHandler
-                0x0800183c                DMA1_Channel1_IRQHandler
-                0x0800183c                Default_Handler
-                0x0800183c                DMA2_Channel7_IRQHandler
-                0x0800183c                EXTI15_10_IRQHandler
-                0x0800183c                TIM7_IRQHandler
-                0x0800183c                SDMMC1_IRQHandler
-                0x0800183c                TIM5_IRQHandler
-                0x0800183c                I2C3_EV_IRQHandler
-                0x0800183c                EXTI9_5_IRQHandler
-                0x0800183c                RTC_WKUP_IRQHandler
-                0x0800183c                PVD_PVM_IRQHandler
-                0x0800183c                SPI2_IRQHandler
-                0x0800183c                CAN1_TX_IRQHandler
-                0x0800183c                DMA2_Channel5_IRQHandler
-                0x0800183c                DMA1_Channel5_IRQHandler
-                0x0800183c                EXTI4_IRQHandler
-                0x0800183c                RNG_IRQHandler
-                0x0800183c                TIM1_TRG_COM_TIM17_IRQHandler
-                0x0800183c                DMA1_Channel3_IRQHandler
-                0x0800183c                COMP_IRQHandler
-                0x0800183c                WWDG_IRQHandler
-                0x0800183c                LPUART1_IRQHandler
-                0x0800183c                DMA2_Channel6_IRQHandler
-                0x0800183c                TIM2_IRQHandler
-                0x0800183c                EXTI1_IRQHandler
-                0x0800183c                USART2_IRQHandler
-                0x0800183c                DFSDM1_FLT0_IRQHandler
-                0x0800183c                I2C2_ER_IRQHandler
-                0x0800183c                DMA1_Channel2_IRQHandler
-                0x0800183c                TIM8_BRK_IRQHandler
-                0x0800183c                CAN1_SCE_IRQHandler
-                0x0800183c                FLASH_IRQHandler
-                0x0800183c                USART1_IRQHandler
-                0x0800183c                OTG_FS_IRQHandler
-                0x0800183c                SPI3_IRQHandler
-                0x0800183c                I2C1_ER_IRQHandler
-                0x0800183c                FMC_IRQHandler
-                0x0800183c                SWPMI1_IRQHandler
-                0x0800183c                LPTIM1_IRQHandler
-                0x0800183c                SAI1_IRQHandler
-                0x0800183c                DMA2_Channel3_IRQHandler
-                0x0800183c                TIM1_BRK_TIM15_IRQHandler
- .text.blinky_app_init
-                0x0800183e       0x48 CMakeFiles/cube_blinky_v2.dir/home/johed/Documents/GitHub/STM32_Projects/Blinky_v2/app/blinky_app.c.obj
-                0x0800183e                blinky_app_init
+                0x080018b4        0x2 CMakeFiles/cube_blinky_v2.dir/startup_stm32l476xx.s.obj
+                0x080018b4                RTC_Alarm_IRQHandler
+                0x080018b4                EXTI2_IRQHandler
+                0x080018b4                TIM8_TRG_COM_IRQHandler
+                0x080018b4                TIM8_CC_IRQHandler
+                0x080018b4                TIM1_CC_IRQHandler
+                0x080018b4                TSC_IRQHandler
+                0x080018b4                TAMP_STAMP_IRQHandler
+                0x080018b4                EXTI3_IRQHandler
+                0x080018b4                LPTIM2_IRQHandler
+                0x080018b4                DFSDM1_FLT1_IRQHandler
+                0x080018b4                I2C3_ER_IRQHandler
+                0x080018b4                DFSDM1_FLT2_IRQHandler
+                0x080018b4                EXTI0_IRQHandler
+                0x080018b4                I2C2_EV_IRQHandler
+                0x080018b4                CAN1_RX0_IRQHandler
+                0x080018b4                FPU_IRQHandler
+                0x080018b4                TIM1_UP_TIM16_IRQHandler
+                0x080018b4                ADC1_2_IRQHandler
+                0x080018b4                SPI1_IRQHandler
+                0x080018b4                TIM6_DAC_IRQHandler
+                0x080018b4                TIM8_UP_IRQHandler
+                0x080018b4                DMA2_Channel2_IRQHandler
+                0x080018b4                DMA1_Channel4_IRQHandler
+                0x080018b4                SAI2_IRQHandler
+                0x080018b4                DFSDM1_FLT3_IRQHandler
+                0x080018b4                USART3_IRQHandler
+                0x080018b4                DMA1_Channel7_IRQHandler
+                0x080018b4                CAN1_RX1_IRQHandler
+                0x080018b4                LCD_IRQHandler
+                0x080018b4                UART5_IRQHandler
+                0x080018b4                ADC3_IRQHandler
+                0x080018b4                TIM4_IRQHandler
+                0x080018b4                DMA2_Channel1_IRQHandler
+                0x080018b4                QUADSPI_IRQHandler
+                0x080018b4                I2C1_EV_IRQHandler
+                0x080018b4                DMA1_Channel6_IRQHandler
+                0x080018b4                UART4_IRQHandler
+                0x080018b4                DMA2_Channel4_IRQHandler
+                0x080018b4                TIM3_IRQHandler
+                0x080018b4                RCC_IRQHandler
+                0x080018b4                DMA1_Channel1_IRQHandler
+                0x080018b4                Default_Handler
+                0x080018b4                DMA2_Channel7_IRQHandler
+                0x080018b4                EXTI15_10_IRQHandler
+                0x080018b4                TIM7_IRQHandler
+                0x080018b4                SDMMC1_IRQHandler
+                0x080018b4                TIM5_IRQHandler
+                0x080018b4                I2C3_EV_IRQHandler
+                0x080018b4                EXTI9_5_IRQHandler
+                0x080018b4                RTC_WKUP_IRQHandler
+                0x080018b4                PVD_PVM_IRQHandler
+                0x080018b4                SPI2_IRQHandler
+                0x080018b4                CAN1_TX_IRQHandler
+                0x080018b4                DMA2_Channel5_IRQHandler
+                0x080018b4                DMA1_Channel5_IRQHandler
+                0x080018b4                EXTI4_IRQHandler
+                0x080018b4                RNG_IRQHandler
+                0x080018b4                TIM1_TRG_COM_TIM17_IRQHandler
+                0x080018b4                DMA1_Channel3_IRQHandler
+                0x080018b4                COMP_IRQHandler
+                0x080018b4                WWDG_IRQHandler
+                0x080018b4                LPUART1_IRQHandler
+                0x080018b4                DMA2_Channel6_IRQHandler
+                0x080018b4                TIM2_IRQHandler
+                0x080018b4                EXTI1_IRQHandler
+                0x080018b4                USART2_IRQHandler
+                0x080018b4                DFSDM1_FLT0_IRQHandler
+                0x080018b4                I2C2_ER_IRQHandler
+                0x080018b4                DMA1_Channel2_IRQHandler
+                0x080018b4                TIM8_BRK_IRQHandler
+                0x080018b4                CAN1_SCE_IRQHandler
+                0x080018b4                FLASH_IRQHandler
+                0x080018b4                USART1_IRQHandler
+                0x080018b4                OTG_FS_IRQHandler
+                0x080018b4                SPI3_IRQHandler
+                0x080018b4                I2C1_ER_IRQHandler
+                0x080018b4                FMC_IRQHandler
+                0x080018b4                SWPMI1_IRQHandler
+                0x080018b4                LPTIM1_IRQHandler
+                0x080018b4                SAI1_IRQHandler
+                0x080018b4                DMA2_Channel3_IRQHandler
+                0x080018b4                TIM1_BRK_TIM15_IRQHandler
+ .text.app_blink_task
+                0x080018b6       0x3c CMakeFiles/cube_blinky_v2.dir/home/johed/Documents/GitHub/STM32_Projects/Blinky_v2/app/app.c.obj
+ *fill*         0x080018f2        0x2 
+ .text.app_button_task
+                0x080018f4       0x8c CMakeFiles/cube_blinky_v2.dir/home/johed/Documents/GitHub/STM32_Projects/Blinky_v2/app/app.c.obj
+ .text.app_init
+                0x08001980       0x94 CMakeFiles/cube_blinky_v2.dir/home/johed/Documents/GitHub/STM32_Projects/Blinky_v2/app/app.c.obj
+                0x08001980                app_init
+ .text.app_task
+                0x08001a14       0x22 CMakeFiles/cube_blinky_v2.dir/home/johed/Documents/GitHub/STM32_Projects/Blinky_v2/app/app.c.obj
+                0x08001a14                app_task
  *(.glue_7)
- .glue_7        0x08001886        0x0 linker stubs
+ .glue_7        0x08001a36        0x0 linker stubs
  *(.glue_7t)
- .glue_7t       0x08001886        0x0 linker stubs
+ .glue_7t       0x08001a36        0x0 linker stubs
  *(.eh_frame)
- *fill*         0x08001886        0x2 
- .eh_frame      0x08001888        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+ *fill*         0x08001a36        0x2 
+ .eh_frame      0x08001a38        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+fp/hard/crtbegin.o
  *(.init)
- .init          0x08001888        0x4 /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+fp/hard/crti.o
-                0x08001888                _init
- .init          0x0800188c        0x8 /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+fp/hard/crtn.o
+ .init          0x08001a38        0x4 /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+fp/hard/crti.o
+                0x08001a38                _init
+ .init          0x08001a3c        0x8 /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+fp/hard/crtn.o
  *(.fini)
- .fini          0x08001894        0x4 /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+fp/hard/crti.o
-                0x08001894                _fini
- .fini          0x08001898        0x8 /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+fp/hard/crtn.o
-                0x080018a0                        . = ALIGN (0x8)
-                0x080018a0                        _etext = .
+ .fini          0x08001a44        0x4 /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+fp/hard/crti.o
+                0x08001a44                _fini
+ .fini          0x08001a48        0x8 /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+fp/hard/crtn.o
+                0x08001a50                        . = ALIGN (0x8)
+                0x08001a50                        _etext = .
 
-.vfp11_veneer   0x080018a0        0x0
- .vfp11_veneer  0x080018a0        0x0 linker stubs
+.vfp11_veneer   0x08001a50        0x0
+ .vfp11_veneer  0x08001a50        0x0 linker stubs
 
-.v4_bx          0x080018a0        0x0
- .v4_bx         0x080018a0        0x0 linker stubs
+.v4_bx          0x08001a50        0x0
+ .v4_bx         0x08001a50        0x0 linker stubs
 
-.iplt           0x080018a0        0x0
- .iplt          0x080018a0        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+.iplt           0x08001a50        0x0
+ .iplt          0x08001a50        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+fp/hard/crtbegin.o
 
-.rodata         0x080018a0       0x40
-                0x080018a0                        . = ALIGN (0x8)
+.rodata         0x08001a50       0x40
+                0x08001a50                        . = ALIGN (0x8)
  *(.rodata)
  *(.rodata*)
  .rodata.AHBPrescTable
-                0x080018a0       0x10 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32l4xx.c.obj
-                0x080018a0                AHBPrescTable
+                0x08001a50       0x10 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32l4xx.c.obj
+                0x08001a50                AHBPrescTable
  .rodata.MSIRangeTable
-                0x080018b0       0x30 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32l4xx.c.obj
-                0x080018b0                MSIRangeTable
-                0x080018e0                        . = ALIGN (0x8)
+                0x08001a60       0x30 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32l4xx.c.obj
+                0x08001a60                MSIRangeTable
+                0x08001a90                        . = ALIGN (0x8)
 
-.ARM.extab      0x080018e0        0x0
-                0x080018e0                        . = ALIGN (0x8)
+.ARM.extab      0x08001a90        0x0
+                0x08001a90                        . = ALIGN (0x8)
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x080018e0                        . = ALIGN (0x8)
+                0x08001a90                        . = ALIGN (0x8)
 
-.ARM            0x080018e0        0x0
-                0x080018e0                        . = ALIGN (0x8)
-                0x080018e0                        __exidx_start = .
+.ARM            0x08001a90        0x0
+                0x08001a90                        . = ALIGN (0x8)
+                0x08001a90                        __exidx_start = .
  *(.ARM.exidx*)
-                0x080018e0                        __exidx_end = .
-                0x080018e0                        . = ALIGN (0x8)
+                0x08001a90                        __exidx_end = .
+                0x08001a90                        . = ALIGN (0x8)
 
-.preinit_array  0x080018e0        0x0
-                0x080018e0                        . = ALIGN (0x8)
-                0x080018e0                        PROVIDE (__preinit_array_start = .)
+.preinit_array  0x08001a90        0x0
+                0x08001a90                        . = ALIGN (0x8)
+                0x08001a90                        PROVIDE (__preinit_array_start = .)
  *(.preinit_array*)
-                0x080018e0                        PROVIDE (__preinit_array_end = .)
-                0x080018e0                        . = ALIGN (0x8)
+                0x08001a90                        PROVIDE (__preinit_array_end = .)
+                0x08001a90                        . = ALIGN (0x8)
 
-.init_array     0x080018e0        0x8
-                0x080018e0                        . = ALIGN (0x8)
-                0x080018e0                        PROVIDE (__init_array_start = .)
+.init_array     0x08001a90        0x8
+                0x08001a90                        . = ALIGN (0x8)
+                0x08001a90                        PROVIDE (__init_array_start = .)
  *(SORT_BY_NAME(.init_array.*))
  *(.init_array*)
- .init_array    0x080018e0        0x4 /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+fp/hard/crtbegin.o
-                0x080018e4                        PROVIDE (__init_array_end = .)
-                0x080018e8                        . = ALIGN (0x8)
- *fill*         0x080018e4        0x4 
+ .init_array    0x08001a90        0x4 /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+                0x08001a94                        PROVIDE (__init_array_end = .)
+                0x08001a98                        . = ALIGN (0x8)
+ *fill*         0x08001a94        0x4 
 
-.fini_array     0x080018e8        0x8
-                0x080018e8                        . = ALIGN (0x8)
-                0x080018e8                        PROVIDE (__fini_array_start = .)
+.fini_array     0x08001a98        0x8
+                0x08001a98                        . = ALIGN (0x8)
+                0x08001a98                        PROVIDE (__fini_array_start = .)
  *(SORT_BY_NAME(.fini_array.*))
  *(.fini_array*)
- .fini_array    0x080018e8        0x4 /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+fp/hard/crtbegin.o
-                0x080018ec                        PROVIDE (__fini_array_end = .)
-                0x080018f0                        . = ALIGN (0x8)
- *fill*         0x080018ec        0x4 
-                0x080018f0                        _sidata = LOADADDR (.data)
+ .fini_array    0x08001a98        0x4 /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+                0x08001a9c                        PROVIDE (__fini_array_end = .)
+                0x08001aa0                        . = ALIGN (0x8)
+ *fill*         0x08001a9c        0x4 
+                0x08001aa0                        _sidata = LOADADDR (.data)
 
-.rel.dyn        0x080018f0        0x0
- .rel.iplt      0x080018f0        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+.rel.dyn        0x08001aa0        0x0
+ .rel.iplt      0x08001aa0        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+fp/hard/crtbegin.o
 
-.data           0x20000000       0x10 load address 0x080018f0
+.data           0x20000000       0x10 load address 0x08001aa0
                 0x20000000                        . = ALIGN (0x8)
                 0x20000000                        _sdata = .
  *(.data)
@@ -2656,16 +2663,16 @@ LOAD /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+fp/hard/crtn.o
  *fill*         0x20000009        0x7 
 
 .tm_clone_table
-                0x20000010        0x0 load address 0x08001900
+                0x20000010        0x0 load address 0x08001ab0
  .tm_clone_table
                 0x20000010        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+fp/hard/crtbegin.o
  .tm_clone_table
                 0x20000010        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+fp/hard/crtend.o
 
-.igot.plt       0x20000010        0x0 load address 0x08001900
+.igot.plt       0x20000010        0x0 load address 0x08001ab0
  .igot.plt      0x20000010        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+fp/hard/crtbegin.o
 
-.tdata          0x20000010        0x0 load address 0x08001900
+.tdata          0x20000010        0x0 load address 0x08001ab0
  *(.tdata .tdata.* .gnu.linkonce.td.*)
                 0x20000010                        . = ALIGN (0x4)
                 0x20000010                        _edata = .
@@ -2682,7 +2689,7 @@ LOAD /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+fp/hard/crtn.o
                 [!provide]                        PROVIDE (__data_source_end = __tdata_source_end)
                 [!provide]                        PROVIDE (__data_source_size = (__data_source_end - __data_source))
 
-.tbss           0x20000010        0x0 load address 0x08001900
+.tbss           0x20000010        0x0 load address 0x08001ab0
                 0x20000010                        _sbss = .
                 0x20000010                        __bss_start__ = _sbss
  *(.tbss .tbss.*)
@@ -2699,32 +2706,33 @@ LOAD /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+fp/hard/crtn.o
                 [!provide]                        PROVIDE (__arm32_tls_tcb_offset = MAX (0x8, __tls_align))
                 [!provide]                        PROVIDE (__arm64_tls_tcb_offset = MAX (0x10, __tls_align))
 
-.bss            0x20000010       0x30 load address 0x08001900
+.bss            0x20000010       0x44 load address 0x08001ab0
  *(.bss)
  .bss           0x20000010       0x1c /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+fp/hard/crtbegin.o
  *(.bss*)
  .bss.uwTick    0x2000002c        0x4 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
                 0x2000002c                uwTick
- .bss.g_blinky  0x20000030       0x10 CMakeFiles/cube_blinky_v2.dir/Core/Src/main.c.obj
+ .bss.g_app     0x20000030       0x24 CMakeFiles/cube_blinky_v2.dir/Core/Src/main.c.obj
  *(COMMON)
-                0x20000040                        . = ALIGN (0x4)
-                0x20000040                        _ebss = .
-                0x20000040                        __bss_end__ = _ebss
+                0x20000054                        . = ALIGN (0x4)
+                0x20000054                        _ebss = .
+                0x20000054                        __bss_end__ = _ebss
                 [!provide]                        PROVIDE (__bss_end = .)
                 [!provide]                        PROVIDE (__non_tls_bss_start = ADDR (.bss))
                 [!provide]                        PROVIDE (__bss_start = __tbss_start)
                 [!provide]                        PROVIDE (__bss_size = (__bss_end - __bss_start))
 
 ._user_heap_stack
-                0x20000040      0x600 load address 0x08001900
-                0x20000040                        . = ALIGN (0x8)
+                0x20000054      0x604 load address 0x08001ab0
+                0x20000058                        . = ALIGN (0x8)
+ *fill*         0x20000054        0x4 
                 [!provide]                        PROVIDE (end = .)
-                0x20000040                        PROVIDE (_end = .)
-                0x20000240                        . = (. + _Min_Heap_Size)
- *fill*         0x20000040      0x200 
-                0x20000640                        . = (. + _Min_Stack_Size)
- *fill*         0x20000240      0x400 
-                0x20000640                        . = ALIGN (0x8)
+                0x20000058                        PROVIDE (_end = .)
+                0x20000258                        . = (. + _Min_Heap_Size)
+ *fill*         0x20000058      0x200 
+                0x20000658                        . = (. + _Min_Stack_Size)
+ *fill*         0x20000258      0x400 
+                0x20000658                        . = ALIGN (0x8)
 
 /DISCARD/
  libc.a:*(*)
@@ -2760,7 +2768,7 @@ LOAD linker stubs
  .ARM.attributes
                 0x0000022a       0x21 CMakeFiles/cube_blinky_v2.dir/startup_stm32l476xx.s.obj
  .ARM.attributes
-                0x0000024b       0x34 CMakeFiles/cube_blinky_v2.dir/home/johed/Documents/GitHub/STM32_Projects/Blinky_v2/app/blinky_app.c.obj
+                0x0000024b       0x34 CMakeFiles/cube_blinky_v2.dir/home/johed/Documents/GitHub/STM32_Projects/Blinky_v2/app/app.c.obj
  .ARM.attributes
                 0x0000027f       0x34 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(libc_a-init.o)
  .ARM.attributes
@@ -2782,42 +2790,42 @@ LOAD linker stubs
  .comment       0x00000026       0x27 CMakeFiles/cube_blinky_v2.dir/Core/Src/main.c.obj
  .comment       0x00000026       0x27 CMakeFiles/cube_blinky_v2.dir/Core/Src/stm32l4xx_it.c.obj
  .comment       0x00000026       0x27 CMakeFiles/cube_blinky_v2.dir/Core/Src/stm32l4xx_hal_msp.c.obj
- .comment       0x00000026       0x27 CMakeFiles/cube_blinky_v2.dir/home/johed/Documents/GitHub/STM32_Projects/Blinky_v2/app/blinky_app.c.obj
+ .comment       0x00000026       0x27 CMakeFiles/cube_blinky_v2.dir/home/johed/Documents/GitHub/STM32_Projects/Blinky_v2/app/app.c.obj
  .comment       0x00000026       0x27 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(libc_a-init.o)
  .comment       0x00000026       0x27 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(libc_a-memset.o)
  .comment       0x00000026       0x27 /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+fp/hard/crtend.o
 
-.debug_info     0x00000000     0x4c6f
+.debug_info     0x00000000     0x4e21
  .debug_info    0x00000000      0x5c8 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32l4xx.c.obj
  .debug_info    0x000005c8      0xb15 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
  .debug_info    0x000010dd      0xc21 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj
  .debug_info    0x00001cfe      0x77b cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj
  .debug_info    0x00002479      0x9b2 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj
  .debug_info    0x00002e2b      0xd89 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
- .debug_info    0x00003bb4      0x75b CMakeFiles/cube_blinky_v2.dir/Core/Src/main.c.obj
- .debug_info    0x0000430f      0x14b CMakeFiles/cube_blinky_v2.dir/Core/Src/stm32l4xx_it.c.obj
- .debug_info    0x0000445a      0x2e7 CMakeFiles/cube_blinky_v2.dir/Core/Src/stm32l4xx_hal_msp.c.obj
- .debug_info    0x00004741       0x30 CMakeFiles/cube_blinky_v2.dir/startup_stm32l476xx.s.obj
- .debug_info    0x00004771      0x2be CMakeFiles/cube_blinky_v2.dir/home/johed/Documents/GitHub/STM32_Projects/Blinky_v2/app/blinky_app.c.obj
- .debug_info    0x00004a2f      0x10b /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(libc_a-init.o)
- .debug_info    0x00004b3a      0x135 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(libc_a-memset.o)
+ .debug_info    0x00003bb4      0x7ee CMakeFiles/cube_blinky_v2.dir/Core/Src/main.c.obj
+ .debug_info    0x000043a2      0x14b CMakeFiles/cube_blinky_v2.dir/Core/Src/stm32l4xx_it.c.obj
+ .debug_info    0x000044ed      0x2e7 CMakeFiles/cube_blinky_v2.dir/Core/Src/stm32l4xx_hal_msp.c.obj
+ .debug_info    0x000047d4       0x30 CMakeFiles/cube_blinky_v2.dir/startup_stm32l476xx.s.obj
+ .debug_info    0x00004804      0x3dd CMakeFiles/cube_blinky_v2.dir/home/johed/Documents/GitHub/STM32_Projects/Blinky_v2/app/app.c.obj
+ .debug_info    0x00004be1      0x10b /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(libc_a-init.o)
+ .debug_info    0x00004cec      0x135 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(libc_a-memset.o)
 
-.debug_abbrev   0x00000000     0x13e0
+.debug_abbrev   0x00000000     0x143e
  .debug_abbrev  0x00000000      0x118 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32l4xx.c.obj
  .debug_abbrev  0x00000118      0x243 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
  .debug_abbrev  0x0000035b      0x2dc cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj
  .debug_abbrev  0x00000637      0x1d1 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj
  .debug_abbrev  0x00000808      0x1f9 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj
  .debug_abbrev  0x00000a01      0x31c cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
- .debug_abbrev  0x00000d1d      0x202 CMakeFiles/cube_blinky_v2.dir/Core/Src/main.c.obj
- .debug_abbrev  0x00000f1f       0xac CMakeFiles/cube_blinky_v2.dir/Core/Src/stm32l4xx_it.c.obj
- .debug_abbrev  0x00000fcb       0xde CMakeFiles/cube_blinky_v2.dir/Core/Src/stm32l4xx_hal_msp.c.obj
- .debug_abbrev  0x000010a9       0x24 CMakeFiles/cube_blinky_v2.dir/startup_stm32l476xx.s.obj
- .debug_abbrev  0x000010cd      0x193 CMakeFiles/cube_blinky_v2.dir/home/johed/Documents/GitHub/STM32_Projects/Blinky_v2/app/blinky_app.c.obj
- .debug_abbrev  0x00001260       0xc9 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(libc_a-init.o)
- .debug_abbrev  0x00001329       0xb7 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(libc_a-memset.o)
+ .debug_abbrev  0x00000d1d      0x221 CMakeFiles/cube_blinky_v2.dir/Core/Src/main.c.obj
+ .debug_abbrev  0x00000f3e       0xac CMakeFiles/cube_blinky_v2.dir/Core/Src/stm32l4xx_it.c.obj
+ .debug_abbrev  0x00000fea       0xde CMakeFiles/cube_blinky_v2.dir/Core/Src/stm32l4xx_hal_msp.c.obj
+ .debug_abbrev  0x000010c8       0x24 CMakeFiles/cube_blinky_v2.dir/startup_stm32l476xx.s.obj
+ .debug_abbrev  0x000010ec      0x1d2 CMakeFiles/cube_blinky_v2.dir/home/johed/Documents/GitHub/STM32_Projects/Blinky_v2/app/app.c.obj
+ .debug_abbrev  0x000012be       0xc9 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(libc_a-init.o)
+ .debug_abbrev  0x00001387       0xb7 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(libc_a-memset.o)
 
-.debug_aranges  0x00000000      0x610
+.debug_aranges  0x00000000      0x620
  .debug_aranges
                 0x00000000       0x28 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32l4xx.c.obj
  .debug_aranges
@@ -2839,14 +2847,14 @@ LOAD linker stubs
  .debug_aranges
                 0x00000580       0x28 CMakeFiles/cube_blinky_v2.dir/startup_stm32l476xx.s.obj
  .debug_aranges
-                0x000005a8       0x28 CMakeFiles/cube_blinky_v2.dir/home/johed/Documents/GitHub/STM32_Projects/Blinky_v2/app/blinky_app.c.obj
+                0x000005a8       0x38 CMakeFiles/cube_blinky_v2.dir/home/johed/Documents/GitHub/STM32_Projects/Blinky_v2/app/app.c.obj
  .debug_aranges
-                0x000005d0       0x20 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(libc_a-init.o)
+                0x000005e0       0x20 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(libc_a-init.o)
  .debug_aranges
-                0x000005f0       0x20 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(libc_a-memset.o)
+                0x00000600       0x20 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(libc_a-memset.o)
 
 .debug_rnglists
-                0x00000000      0x436
+                0x00000000      0x445
  .debug_rnglists
                 0x00000000       0x1a cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32l4xx.c.obj
  .debug_rnglists
@@ -2860,15 +2868,15 @@ LOAD linker stubs
  .debug_rnglists
                 0x000002ae       0xda cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
  .debug_rnglists
-                0x00000388       0x26 CMakeFiles/cube_blinky_v2.dir/Core/Src/main.c.obj
+                0x00000388       0x27 CMakeFiles/cube_blinky_v2.dir/Core/Src/main.c.obj
  .debug_rnglists
-                0x000003ae       0x43 CMakeFiles/cube_blinky_v2.dir/Core/Src/stm32l4xx_it.c.obj
+                0x000003af       0x43 CMakeFiles/cube_blinky_v2.dir/Core/Src/stm32l4xx_it.c.obj
  .debug_rnglists
-                0x000003f1       0x13 CMakeFiles/cube_blinky_v2.dir/Core/Src/stm32l4xx_hal_msp.c.obj
+                0x000003f2       0x13 CMakeFiles/cube_blinky_v2.dir/Core/Src/stm32l4xx_hal_msp.c.obj
  .debug_rnglists
-                0x00000404       0x19 CMakeFiles/cube_blinky_v2.dir/startup_stm32l476xx.s.obj
+                0x00000405       0x19 CMakeFiles/cube_blinky_v2.dir/startup_stm32l476xx.s.obj
  .debug_rnglists
-                0x0000041d       0x19 CMakeFiles/cube_blinky_v2.dir/home/johed/Documents/GitHub/STM32_Projects/Blinky_v2/app/blinky_app.c.obj
+                0x0000041e       0x27 CMakeFiles/cube_blinky_v2.dir/home/johed/Documents/GitHub/STM32_Projects/Blinky_v2/app/app.c.obj
 
 .debug_macro    0x00000000    0x242d3
  .debug_macro   0x00000000      0x15e cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32l4xx.c.obj
@@ -2908,52 +2916,52 @@ LOAD linker stubs
  .debug_macro   0x00023d2b      0x16c CMakeFiles/cube_blinky_v2.dir/Core/Src/main.c.obj
  .debug_macro   0x00023e97      0x172 CMakeFiles/cube_blinky_v2.dir/Core/Src/stm32l4xx_it.c.obj
  .debug_macro   0x00024009      0x168 CMakeFiles/cube_blinky_v2.dir/Core/Src/stm32l4xx_hal_msp.c.obj
- .debug_macro   0x00024171      0x162 CMakeFiles/cube_blinky_v2.dir/home/johed/Documents/GitHub/STM32_Projects/Blinky_v2/app/blinky_app.c.obj
+ .debug_macro   0x00024171      0x162 CMakeFiles/cube_blinky_v2.dir/home/johed/Documents/GitHub/STM32_Projects/Blinky_v2/app/app.c.obj
 
-.debug_line     0x00000000     0x5ac2
+.debug_line     0x00000000     0x5b3e
  .debug_line    0x00000000      0x62d cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32l4xx.c.obj
  .debug_line    0x0000062d      0x998 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
  .debug_line    0x00000fc5      0xeed cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj
  .debug_line    0x00001eb2      0x9ec cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj
  .debug_line    0x0000289e      0xb7a cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj
  .debug_line    0x00003418      0xb33 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
- .debug_line    0x00003f4b      0x69e CMakeFiles/cube_blinky_v2.dir/Core/Src/main.c.obj
- .debug_line    0x000045e9      0x641 CMakeFiles/cube_blinky_v2.dir/Core/Src/stm32l4xx_it.c.obj
- .debug_line    0x00004c2a      0x592 CMakeFiles/cube_blinky_v2.dir/Core/Src/stm32l4xx_hal_msp.c.obj
- .debug_line    0x000051bc       0x7a CMakeFiles/cube_blinky_v2.dir/startup_stm32l476xx.s.obj
- .debug_line    0x00005236      0x5b8 CMakeFiles/cube_blinky_v2.dir/home/johed/Documents/GitHub/STM32_Projects/Blinky_v2/app/blinky_app.c.obj
- .debug_line    0x000057ee      0x11e /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(libc_a-init.o)
- .debug_line    0x0000590c      0x1b6 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(libc_a-memset.o)
+ .debug_line    0x00003f4b      0x6aa CMakeFiles/cube_blinky_v2.dir/Core/Src/main.c.obj
+ .debug_line    0x000045f5      0x641 CMakeFiles/cube_blinky_v2.dir/Core/Src/stm32l4xx_it.c.obj
+ .debug_line    0x00004c36      0x592 CMakeFiles/cube_blinky_v2.dir/Core/Src/stm32l4xx_hal_msp.c.obj
+ .debug_line    0x000051c8       0x7a CMakeFiles/cube_blinky_v2.dir/startup_stm32l476xx.s.obj
+ .debug_line    0x00005242      0x628 CMakeFiles/cube_blinky_v2.dir/home/johed/Documents/GitHub/STM32_Projects/Blinky_v2/app/app.c.obj
+ .debug_line    0x0000586a      0x11e /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(libc_a-init.o)
+ .debug_line    0x00005988      0x1b6 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(libc_a-memset.o)
 
-.debug_str      0x00000000    0xdfc8e
- .debug_str     0x00000000    0xdfc8e cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32l4xx.c.obj
+.debug_str      0x00000000    0xdfcfd
+ .debug_str     0x00000000    0xdfcfd cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32l4xx.c.obj
                               0xdde55 (size before relaxing)
- .debug_str     0x000dfc8e    0xde9fd cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
- .debug_str     0x000dfc8e    0xde490 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj
- .debug_str     0x000dfc8e    0xddfd5 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj
- .debug_str     0x000dfc8e    0xde3b0 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj
- .debug_str     0x000dfc8e    0xde6c4 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
- .debug_str     0x000dfc8e    0xde0a8 CMakeFiles/cube_blinky_v2.dir/Core/Src/main.c.obj
- .debug_str     0x000dfc8e    0xddce4 CMakeFiles/cube_blinky_v2.dir/Core/Src/stm32l4xx_it.c.obj
- .debug_str     0x000dfc8e    0xddda0 CMakeFiles/cube_blinky_v2.dir/Core/Src/stm32l4xx_hal_msp.c.obj
- .debug_str     0x000dfc8e       0xd0 CMakeFiles/cube_blinky_v2.dir/startup_stm32l476xx.s.obj
- .debug_str     0x000dfc8e    0xddd0c CMakeFiles/cube_blinky_v2.dir/home/johed/Documents/GitHub/STM32_Projects/Blinky_v2/app/blinky_app.c.obj
- .debug_str     0x000dfc8e      0x1fa /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(libc_a-init.o)
- .debug_str     0x000dfc8e      0x1ad /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(libc_a-memset.o)
+ .debug_str     0x000dfcfd    0xde9fd cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
+ .debug_str     0x000dfcfd    0xde490 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj
+ .debug_str     0x000dfcfd    0xddfd5 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj
+ .debug_str     0x000dfcfd    0xde3b0 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj
+ .debug_str     0x000dfcfd    0xde6c4 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
+ .debug_str     0x000dfcfd    0xde109 CMakeFiles/cube_blinky_v2.dir/Core/Src/main.c.obj
+ .debug_str     0x000dfcfd    0xddce4 CMakeFiles/cube_blinky_v2.dir/Core/Src/stm32l4xx_it.c.obj
+ .debug_str     0x000dfcfd    0xddda0 CMakeFiles/cube_blinky_v2.dir/Core/Src/stm32l4xx_hal_msp.c.obj
+ .debug_str     0x000dfcfd       0xd0 CMakeFiles/cube_blinky_v2.dir/startup_stm32l476xx.s.obj
+ .debug_str     0x000dfcfd    0xddd8f CMakeFiles/cube_blinky_v2.dir/home/johed/Documents/GitHub/STM32_Projects/Blinky_v2/app/app.c.obj
+ .debug_str     0x000dfcfd      0x1fa /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(libc_a-init.o)
+ .debug_str     0x000dfcfd      0x1ad /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(libc_a-memset.o)
 
-.debug_frame    0x00000000     0x153c
+.debug_frame    0x00000000     0x1588
  .debug_frame   0x00000000       0x58 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32l4xx.c.obj
  .debug_frame   0x00000058      0x498 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
  .debug_frame   0x000004f0      0x21c cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj
  .debug_frame   0x0000070c      0x14c cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj
  .debug_frame   0x00000858      0x584 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj
  .debug_frame   0x00000ddc      0x4e8 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
- .debug_frame   0x000012c4       0x8c CMakeFiles/cube_blinky_v2.dir/Core/Src/main.c.obj
- .debug_frame   0x00001350      0x104 CMakeFiles/cube_blinky_v2.dir/Core/Src/stm32l4xx_it.c.obj
- .debug_frame   0x00001454       0x38 CMakeFiles/cube_blinky_v2.dir/Core/Src/stm32l4xx_hal_msp.c.obj
- .debug_frame   0x0000148c       0x58 CMakeFiles/cube_blinky_v2.dir/home/johed/Documents/GitHub/STM32_Projects/Blinky_v2/app/blinky_app.c.obj
- .debug_frame   0x000014e4       0x2c /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(libc_a-init.o)
- .debug_frame   0x00001510       0x2c /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(libc_a-memset.o)
+ .debug_frame   0x000012c4       0x90 CMakeFiles/cube_blinky_v2.dir/Core/Src/main.c.obj
+ .debug_frame   0x00001354      0x104 CMakeFiles/cube_blinky_v2.dir/Core/Src/stm32l4xx_it.c.obj
+ .debug_frame   0x00001458       0x38 CMakeFiles/cube_blinky_v2.dir/Core/Src/stm32l4xx_hal_msp.c.obj
+ .debug_frame   0x00001490       0xa0 CMakeFiles/cube_blinky_v2.dir/home/johed/Documents/GitHub/STM32_Projects/Blinky_v2/app/app.c.obj
+ .debug_frame   0x00001530       0x2c /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(libc_a-init.o)
+ .debug_frame   0x0000155c       0x2c /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(libc_a-memset.o)
 
 .debug_line_str
                 0x00000000       0xb6
